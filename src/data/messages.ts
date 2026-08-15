@@ -42,6 +42,72 @@ export const seedConversations: Conversation[] = [
     ],
   },
   {
+    id: "c-maya-solace",
+    creatorId: "maya-chen",
+    campaignTitle: "Dew Protocol",
+    lastMessage: "Shortlisted. Sending the product Friday.",
+    time: "5h",
+    unread: 1,
+    messages: [
+      {
+        id: "ms1",
+        from: "creator",
+        text: "Treatment attached — seven days, north light, no filters on the cream.",
+        time: "Mar 12",
+      },
+      {
+        id: "ms2",
+        from: "brand",
+        text: "Shortlisted. Sending the product Friday.",
+        time: "5h",
+      },
+    ],
+  },
+  {
+    id: "c-maya-noir",
+    creatorId: "maya-chen",
+    campaignTitle: "Night Ritual",
+    lastMessage: "Cut v3 is in review. Darker, as asked.",
+    time: "1d",
+    unread: 0,
+    messages: [
+      {
+        id: "mn1",
+        from: "brand",
+        text: "Maya — can we go darker on the grade? Less bottle, more skin.",
+        time: "Mar 18",
+      },
+      {
+        id: "mn2",
+        from: "creator",
+        text: "Cut v3 is in review. Darker, as asked.",
+        time: "1d",
+      },
+    ],
+  },
+  {
+    id: "c-maya-wander",
+    creatorId: "maya-chen",
+    campaignTitle: "House Residencies",
+    lastMessage: "Oaxaca still works if the atelier window holds.",
+    time: "4d",
+    unread: 0,
+    messages: [
+      {
+        id: "mw1",
+        from: "creator",
+        text: "I applied with a fashion reading of the house. Happy to talk dates.",
+        time: "Mar 8",
+      },
+      {
+        id: "mw2",
+        from: "brand",
+        text: "Oaxaca still works if the atelier window holds.",
+        time: "4d",
+      },
+    ],
+  },
+  {
     id: "c-hana",
     creatorId: "hana-mori",
     campaignTitle: "Dew Protocol",

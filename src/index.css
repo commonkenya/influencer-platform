@@ -78,3 +78,16 @@ input[type="range"]::-webkit-slider-thumb {
 .animate-marquee {
   animation: marquee 40s linear infinite;
 }
+
+.field {
+  width: 100%;
+  border: 1px solid rgb(255 255 255 / 0.1);
+  background: var(--color-ink);
+  padding: 0.7rem 0.85rem;
+  font-size: 0.875rem;
+  color: var(--color-cream);
+  outline: none;
+}
+.field:focus {
+  border-color: rgb(196 165 116 / 0.45);
+}

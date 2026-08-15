@@ -66,10 +66,10 @@ export default function CreatorProfile() {
             </div>
             <div className="flex gap-2">
               <Link
-                to="/inbox"
+                to="/enter?as=brand"
                 className="inline-flex items-center gap-2 bg-gold px-5 py-3 text-[12px] tracking-[0.16em] uppercase text-ink"
               >
-                <MessageSquare size={14} /> Open inbox
+                <MessageSquare size={14} /> Message from studio
               </Link>
               <button
                 onClick={() => toggleShortlist(creator.id)}

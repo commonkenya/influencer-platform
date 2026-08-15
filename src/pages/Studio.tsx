@@ -34,14 +34,14 @@ export default function Studio() {
           <p className="text-[11px] tracking-[0.28em] uppercase text-gold">Brand desk</p>
           <h1 className="mt-2 font-display text-5xl md:text-6xl">Studio</h1>
           <p className="mt-3 max-w-xl text-stone">
-            Signed in as Lumen Atelier. Pipeline, shortlist, and applications for the season.
+            A public preview of the house desk. Sign in to run campaigns, cast talent, and read treatments.
           </p>
         </div>
         <Link
-          to="/discover"
+          to="/enter?as=brand"
           className="border border-gold/50 px-4 py-2 text-[11px] tracking-[0.18em] uppercase text-gold hover:bg-gold hover:text-ink"
         >
-          Cast new talent
+          Enter brand studio
         </Link>
       </div>
 
@@ -144,7 +144,7 @@ export default function Studio() {
                 const camp = getCampaign(a.campaignId);
                 if (!camp) return null;
                 return (
-                  <li key={a.campaignId} className="flex items-start justify-between gap-4 py-4">
+                  <li key={a.id} className="flex items-start justify-between gap-4 py-4">
                     <div>
                       <Link to={`/campaigns/${camp.id}`} className="text-cream hover:text-gold">
                         {camp.title}
@@ -178,12 +178,14 @@ export default function Studio() {
               <p className="text-[11px] tracking-[0.22em] uppercase text-gold">Inbox</p>
               <h2 className="mt-2 font-display text-3xl">Live threads</h2>
             </div>
-            <Link to="/inbox" className="inline-flex items-center gap-1 text-[12px] uppercase tracking-wider text-gold">
+            <Link to="/enter?as=brand" className="inline-flex items-center gap-1 text-[12px] uppercase tracking-wider text-gold">
               Open <ArrowUpRight size={12} />
             </Link>
           </div>
           <ul className="mt-6 divide-y divide-white/8">
-            {conversations.map((c) => {
+            {conversations
+              .filter((c) => ["c-maya", "c-hana", "c-jordan", "c-sofia", "c-amara"].includes(c.id))
+              .map((c) => {
               const cr = getCreator(c.creatorId);
               return (
                 <li key={c.id} className="flex items-center gap-3 py-3">

@@ -75,16 +75,16 @@ export default function Home() {
             className="mt-10 flex flex-wrap gap-3"
           >
             <Link
-              to="/discover"
+              to="/enter?as=brand"
               className="inline-flex items-center gap-2 bg-gold px-6 py-3 text-[12px] tracking-[0.2em] uppercase text-ink transition hover:bg-gold-2"
             >
-              Browse the roster <ArrowRight size={14} />
+              Brand studio <ArrowRight size={14} />
             </Link>
             <Link
-              to="/campaigns"
+              to="/enter?as=creator"
               className="inline-flex items-center gap-2 border border-cream/30 px-6 py-3 text-[12px] tracking-[0.2em] uppercase text-cream hover:border-gold hover:text-gold"
             >
-              Open briefs
+              Talent desk
             </Link>
           </motion.div>
         </div>
@@ -262,12 +262,40 @@ export default function Home() {
               <li>— Usage and exclusivity written in plain language</li>
             </ul>
             <Link
-              to="/campaigns"
+              to="/enter?as=creator"
               className="mt-8 inline-flex items-center gap-2 border border-gold/50 px-5 py-3 text-[12px] tracking-[0.18em] uppercase text-gold hover:bg-gold hover:text-ink"
             >
-              See open seats <ArrowRight size={14} />
+              Open talent desk <ArrowRight size={14} />
             </Link>
           </div>
+        </div>
+      </section>
+
+      <section className="border-t border-white/8 bg-ink-2">
+        <div className="mx-auto grid max-w-[1400px] md:grid-cols-2">
+          <Link
+            to="/enter?as=brand"
+            className="group border-b border-white/8 px-5 py-16 md:border-b-0 md:border-r md:px-8 md:py-20"
+          >
+            <p className="text-[11px] tracking-[0.24em] uppercase text-gold">Houses</p>
+            <h2 className="mt-3 font-display text-4xl">Brand studio</h2>
+            <p className="mt-3 max-w-md text-sm leading-relaxed text-stone">
+              Write briefs, cast from the roster, review treatments, and watch spend against ROAS.
+            </p>
+            <span className="mt-6 inline-flex items-center gap-1 text-[12px] tracking-[0.16em] uppercase text-gold">
+              Enter as Lumen <ArrowRight size={14} className="transition group-hover:translate-x-1" />
+            </span>
+          </Link>
+          <Link to="/enter?as=creator" className="group px-5 py-16 md:px-8 md:py-20">
+            <p className="text-[11px] tracking-[0.24em] uppercase text-gold">Talent</p>
+            <h2 className="mt-3 font-display text-4xl">Creator desk</h2>
+            <p className="mt-3 max-w-md text-sm leading-relaxed text-stone">
+              Bookings, deliverables, applications, and the ledger — signed in as Maya Chen.
+            </p>
+            <span className="mt-6 inline-flex items-center gap-1 text-[12px] tracking-[0.16em] uppercase text-gold">
+              Enter as Maya <ArrowRight size={14} className="transition group-hover:translate-x-1" />
+            </span>
+          </Link>
         </div>
       </section>
     </div>

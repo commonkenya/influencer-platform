@@ -91,11 +91,69 @@ export interface Conversation {
   messages: Message[];
 }
 
+export type Role = "guest" | "brand" | "creator";
+
+export type ApplicationStatus = "pending" | "shortlisted" | "accepted" | "declined";
+
 export interface Application {
+  id: string;
   campaignId: string;
-  creatorId?: string;
+  creatorId: string;
   pitch: string;
   rate: string;
   date: string;
-  status: "pending" | "shortlisted" | "accepted";
+  status: ApplicationStatus;
+}
+
+export type BookingStatus = "contracted" | "production" | "review" | "delivered" | "paid";
+
+export interface DeliverableItem {
+  id: string;
+  label: string;
+  done: boolean;
+  due: string;
+}
+
+export interface Booking {
+  id: string;
+  campaignId: string;
+  creatorId: string;
+  brand: string;
+  title: string;
+  fee: number;
+  status: BookingStatus;
+  due: string;
+  deliverables: DeliverableItem[];
+}
+
+export interface Payout {
+  id: string;
+  bookingId: string;
+  campaign: string;
+  amount: number;
+  date: string;
+  status: "scheduled" | "processing" | "paid";
+}
+
+export interface BrandAccount {
+  id: string;
+  name: string;
+  role: string;
+  image: string;
+  city: string;
+}
+
+export interface NewCampaignInput {
+  title: string;
+  tagline: string;
+  brief: string;
+  niches: Niche[];
+  budgetMin: number;
+  budgetMax: number;
+  deliverables: string[];
+  deadline: string;
+  startDate: string;
+  platforms: PlatformName[];
+  location: string;
+  spots: number;
 }

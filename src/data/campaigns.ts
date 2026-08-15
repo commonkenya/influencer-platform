@@ -233,6 +233,63 @@ export const campaigns: Campaign[] = [
     brandAbout:
       "Terra weaves linen in Portugal and sews in Porto. Clothes and home textiles with the same hand.",
   },
+  {
+    id: "lumen-nightcut",
+    brand: "Lumen Atelier",
+    brandImage: "/images/brands/atelier.jpg",
+    image: "/images/campaigns/noir.jpg",
+    title: "Night Cut",
+    tagline: "Evening tailoring for rooms that stay open.",
+    brief:
+      "A live campaign for the Night Cut — black wool, a single jewel button, the hour after dinner. Four creators already shooting. We are not adding seats.",
+    niches: ["Fashion", "Beauty"],
+    budget: "$16k – $38k",
+    budgetMin: 16000,
+    budgetMax: 38000,
+    deliverables: [
+      "1 brand film 30s",
+      "3 stills",
+      "Launch stories",
+      "Usage 12 months",
+    ],
+    deadline: "Feb 28, 2026",
+    startDate: "Mar 10, 2026",
+    status: "live",
+    applicants: 18,
+    spots: 4,
+    platforms: ["Instagram", "TikTok"],
+    location: "Paris · New York · Seoul",
+    brandAbout:
+      "Lumen Atelier is a house of considered clothes — cut in small runs, shown like cinema. Founded in 2014, now in twelve cities.",
+  },
+  {
+    id: "lumen-workwear",
+    brand: "Lumen Atelier",
+    brandImage: "/images/brands/atelier.jpg",
+    image: "/images/campaigns/pulse.jpg",
+    title: "Workwear Capsule",
+    tagline: "Clothes for a Tuesday that still have a line.",
+    brief:
+      "A completed capsule with working-life creators. The archive is open for reporting; no new applications.",
+    niches: ["Fashion", "Lifestyle", "Tech"],
+    budget: "$8k – $20k",
+    budgetMin: 8000,
+    budgetMax: 20000,
+    deliverables: [
+      "Workday reel",
+      "4 stills",
+      "Stories over one week",
+    ],
+    deadline: "Jan 15, 2026",
+    startDate: "Jan 28, 2026",
+    status: "completed",
+    applicants: 31,
+    spots: 5,
+    platforms: ["Instagram", "YouTube"],
+    location: "Global, English",
+    brandAbout:
+      "Lumen Atelier is a house of considered clothes — cut in small runs, shown like cinema. Founded in 2014, now in twelve cities.",
+  },
 ];
 
 export function getCampaign(id: string) {

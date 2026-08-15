@@ -1,22 +1,23 @@
 import { useMemo, useState } from "react";
-import { campaigns } from "../data/campaigns";
 import { niches } from "../data/creators";
 import type { CampaignStatus, Niche } from "../data/types";
 import CampaignCard from "../components/CampaignCard";
+import { useStore } from "../lib/store";
 
 const statuses: (CampaignStatus | "all")[] = ["all", "open", "reviewing", "live", "completed"];
 
 export default function Campaigns() {
+  const { allCampaigns } = useStore();
   const [niche, setNiche] = useState<Niche | "All">("All");
   const [status, setStatus] = useState<CampaignStatus | "all">("all");
 
   const list = useMemo(() => {
-    return campaigns.filter((c) => {
+    return allCampaigns.filter((c) => {
       if (status !== "all" && c.status !== status) return false;
       if (niche !== "All" && !c.niches.includes(niche)) return false;
       return true;
     });
-  }, [niche, status]);
+  }, [niche, status, allCampaigns]);
 
   return (
     <div className="mx-auto max-w-[1400px] px-5 py-10 md:px-8 md:py-14">

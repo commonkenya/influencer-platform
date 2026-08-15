@@ -1,15 +1,14 @@
 import { FormEvent, useState, type ReactNode } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { ArrowLeft, Calendar, Check, MapPin, Users } from "lucide-react";
-import { getCampaign } from "../data/campaigns";
 import { creators } from "../data/creators";
 import CreatorCard from "../components/CreatorCard";
 import { useStore } from "../lib/store";
 
 export default function CampaignDetail() {
   const { id } = useParams();
-  const campaign = id ? getCampaign(id) : undefined;
-  const { hasApplied, apply } = useStore();
+  const { hasApplied, apply, getCampaignById, role } = useStore();
+  const campaign = id ? getCampaignById(id) : undefined;
   const nav = useNavigate();
   const [pitch, setPitch] = useState("");
   const [rate, setRate] = useState("");
@@ -38,8 +37,6 @@ export default function CampaignDetail() {
       campaignId: campaign.id,
       pitch: pitch.trim(),
       rate: rate || String(campaign.budgetMin),
-      date: "Mar 21, 2026",
-      status: "pending",
     });
     setDone(true);
   };
@@ -135,10 +132,10 @@ export default function CampaignDetail() {
                   <p className="font-display text-2xl text-gold">Application in.</p>
                   <p className="mt-2 text-sm text-stone">The house will reply in studio inbox.</p>
                   <Link
-                    to="/studio"
+                    to={role === "creator" ? "/creator/opportunities" : "/enter?as=creator"}
                     className="mt-4 inline-block text-[11px] tracking-[0.16em] uppercase text-gold"
                   >
-                    View in studio
+                    View on your desk
                   </Link>
                 </div>
               ) : (

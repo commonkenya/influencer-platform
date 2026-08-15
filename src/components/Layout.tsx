@@ -7,15 +7,14 @@ const nav = [
   { to: "/discover", label: "Roster" },
   { to: "/campaigns", label: "Campaigns" },
   { to: "/studio", label: "Studio" },
-  { to: "/inbox", label: "Inbox" },
 ];
 
 export default function Layout() {
   const [open, setOpen] = useState(false);
-  const { conversations, shortlist } = useStore();
-  const unread = conversations.reduce((n, c) => n + c.unread, 0);
+  const { role, shortlist } = useStore();
   const loc = useLocation();
   const isHome = loc.pathname === "/";
+  const desk = role === "creator" ? "/creator" : role === "brand" ? "/brand" : "/enter";
 
   return (
     <div className="min-h-screen bg-ink text-cream">
@@ -54,11 +53,6 @@ export default function Layout() {
                 }
               >
                 {item.label}
-                {item.to === "/inbox" && unread > 0 && (
-                  <span className="absolute -right-3.5 -top-2 flex h-4 min-w-4 items-center justify-center rounded-full bg-gold px-1 text-[9px] font-medium text-ink">
-                    {unread}
-                  </span>
-                )}
                 {item.to === "/studio" && shortlist.length > 0 && (
                   <span className="sr-only">{shortlist.length} shortlisted</span>
                 )}
@@ -68,10 +62,16 @@ export default function Layout() {
 
           <div className="hidden items-center gap-3 md:flex">
             <Link
-              to="/discover"
+              to={role === "guest" ? "/enter?as=creator" : desk}
+              className="text-[11px] tracking-[0.18em] uppercase text-stone hover:text-cream"
+            >
+              {role === "guest" ? "Talent desk" : "Your desk"}
+            </Link>
+            <Link
+              to={role === "brand" ? "/brand" : "/enter?as=brand"}
               className="border border-gold/50 px-4 py-2 text-[11px] tracking-[0.2em] uppercase text-gold transition hover:bg-gold hover:text-ink"
             >
-              Brief a campaign
+              {role === "brand" ? "Open studio" : "Brand studio"}
             </Link>
           </div>
 
@@ -102,11 +102,18 @@ export default function Layout() {
                 </NavLink>
               ))}
               <Link
-                to="/discover"
+                to="/enter?as=creator"
+                onClick={() => setOpen(false)}
+                className="text-sm tracking-[0.18em] uppercase text-stone"
+              >
+                Talent desk
+              </Link>
+              <Link
+                to="/enter?as=brand"
                 onClick={() => setOpen(false)}
                 className="mt-2 border border-gold/50 px-4 py-3 text-center text-[11px] tracking-[0.2em] uppercase text-gold"
               >
-                Brief a campaign
+                Brand studio
               </Link>
             </div>
           </div>
@@ -155,13 +162,13 @@ export default function Layout() {
                 </Link>
               </li>
               <li>
-                <Link to="/inbox" className="hover:text-cream">
-                  Inbox
+                <Link to="/enter?as=creator" className="hover:text-cream">
+                  Talent desk
                 </Link>
               </li>
               <li>
-                <Link to="/" className="hover:text-cream">
-                  Membership
+                <Link to="/enter?as=brand" className="hover:text-cream">
+                  Brand studio
                 </Link>
               </li>
             </ul>
