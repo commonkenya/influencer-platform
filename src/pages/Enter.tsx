@@ -92,7 +92,7 @@ export default function Enter() {
               <div>
                 <p className="text-lg">{tab === "brand" ? brandUser.name : maya?.name}</p>
                 <p className="text-[12px] text-stone">
-                  {tab === "brand" ? "Lumen Atelier · Partnerships" : "Fashion · Los Angeles"}
+                  {tab === "brand" ? "Lumen Atelier · Partnerships" : "Fashion · Nairobi"}
                 </p>
               </div>
             </div>

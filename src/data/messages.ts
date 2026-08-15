@@ -5,7 +5,7 @@ export const seedConversations: Conversation[] = [
     id: "c-maya",
     creatorId: "maya-chen",
     campaignTitle: "Autumn Atelier",
-    lastMessage: "I can shoot the dusk sequence in Griffith on the 6th.",
+    lastMessage: "I can shoot the dusk sequence in Ngong on the 6th.",
     time: "12m",
     unread: 2,
     messages: [
@@ -18,13 +18,13 @@ export const seedConversations: Conversation[] = [
       {
         id: "m2",
         from: "creator",
-        text: "I already sketched a treatment. Editorial, no talking head. Two locations: interior gold hour and Griffith dusk.",
+        text: "I already sketched a treatment. Editorial, no talking head. Two locations: interior gold hour and Ngong dusk.",
         time: "Mon 11:02",
       },
       {
         id: "m3",
         from: "brand",
-        text: "That’s exactly the register. Budget is $14k for the reel + stills, 6-month usage. Does that land?",
+        text: "That’s exactly the register. Budget is KSh 168K for the reel + stills, 6-month usage. Does that land?",
         time: "Mon 14:40",
       },
       {
@@ -36,7 +36,7 @@ export const seedConversations: Conversation[] = [
       {
         id: "m5",
         from: "creator",
-        text: "I can shoot the dusk sequence in Griffith on the 6th.",
+        text: "I can shoot the dusk sequence in Ngong on the 6th.",
         time: "12m",
       },
     ],
@@ -89,7 +89,7 @@ export const seedConversations: Conversation[] = [
     id: "c-maya-wander",
     creatorId: "maya-chen",
     campaignTitle: "House Residencies",
-    lastMessage: "Oaxaca still works if the atelier window holds.",
+    lastMessage: "Diani still works if the atelier window holds.",
     time: "4d",
     unread: 0,
     messages: [
@@ -102,7 +102,7 @@ export const seedConversations: Conversation[] = [
       {
         id: "mw2",
         from: "brand",
-        text: "Oaxaca still works if the atelier window holds.",
+        text: "Diani still works if the atelier window holds.",
         time: "4d",
       },
     ],
@@ -167,20 +167,20 @@ export const seedConversations: Conversation[] = [
     id: "c-sofia",
     creatorId: "sofia-reyes",
     campaignTitle: "House Residencies",
-    lastMessage: "Oaxaca dates work. I’ll fly the 8th.",
+    lastMessage: "Diani dates work. I’ll fly the 8th.",
     time: "3d",
     unread: 1,
     messages: [
       {
         id: "s1",
         from: "brand",
-        text: "Sofia — we have a week in the Oaxaca house in June. No itinerary. Just the place.",
+        text: "Sofia — we have a week in the Diani house in June. No itinerary. Just the place.",
         time: "Mar 1",
       },
       {
         id: "s2",
         from: "creator",
-        text: "Oaxaca dates work. I’ll fly the 8th.",
+        text: "Diani dates work. I’ll fly the 8th.",
         time: "3d",
       },
     ],

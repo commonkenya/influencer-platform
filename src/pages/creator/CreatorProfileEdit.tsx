@@ -46,7 +46,7 @@ export default function CreatorProfileEdit() {
             <textarea value={bio} onChange={(e) => setBio(e.target.value)} rows={7} className="field mt-2" />
           </label>
           <div>
-            <p className="text-[11px] tracking-[0.18em] uppercase text-gold">Rate card (USD)</p>
+            <p className="text-[11px] tracking-[0.18em] uppercase text-gold">Rate card (KSh)</p>
             <div className="mt-3 grid gap-4 sm:grid-cols-3">
               <label className="block">
                 <span className="text-[11px] text-stone">Feed post · {formatMoney(post)}</span>

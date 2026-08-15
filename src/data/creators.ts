@@ -7,8 +7,8 @@ export const creators: Creator[] = [
     handle: "@mayainframe",
     image: "/images/creators/maya.jpg",
     niches: ["Fashion", "Lifestyle"],
-    location: "Los Angeles, US",
-    city: "Los Angeles",
+    location: "Westlands, Nairobi",
+    city: "Nairobi",
     bio: "Editorial fashion and slow luxury. 1.2M across platforms.",
     longBio:
       "Maya builds cinematic fashion stories for houses that still believe in craft. Her feed is a study in silhouette, light, and restraint — the kind of work that makes a campaign feel like a film still. She partners with a handful of brands each season and treats every brief like a lookbook.",
@@ -19,7 +19,7 @@ export const creators: Creator[] = [
     ],
     totalFollowers: 1204000,
     avgEngagement: 5.2,
-    rate: { post: 8500, story: 2200, reel: 12000 },
+    rate: { post: 102000, story: 26000, reel: 144000 },
     languages: ["English", "Mandarin"],
     verified: true,
     featured: true,
@@ -30,10 +30,10 @@ export const creators: Creator[] = [
       female: 78,
       male: 22,
       topCountries: [
-        { name: "United States", pct: 54 },
-        { name: "United Kingdom", pct: 14 },
-        { name: "France", pct: 9 },
-        { name: "Australia", pct: 7 },
+        { name: "Kenya", pct: 54 },
+        { name: "Uganda", pct: 14 },
+        { name: "Rwanda", pct: 9 },
+        { name: "South Africa", pct: 7 },
       ],
       ages: [
         { range: "18–24", pct: 28 },
@@ -53,8 +53,8 @@ export const creators: Creator[] = [
     handle: "@vale.train",
     image: "/images/creators/jordan.jpg",
     niches: ["Fitness", "Wellness"],
-    location: "Austin, US",
-    city: "Austin",
+    location: "Gigiri, Nairobi",
+    city: "Nairobi",
     bio: "Strength coaching and athletic film. High-intent male 25–40.",
     longBio:
       "Jordan turned a garage program into a performance media studio. His audience trains with him — they buy the kit he wears and the protocols he runs. Brands come for conversion, not vanity reach.",
@@ -65,7 +65,7 @@ export const creators: Creator[] = [
     ],
     totalFollowers: 1010000,
     avgEngagement: 6.5,
-    rate: { post: 6200, story: 1600, reel: 9000 },
+    rate: { post: 74000, story: 19000, reel: 108000 },
     languages: ["English"],
     verified: true,
     featured: true,
@@ -76,10 +76,10 @@ export const creators: Creator[] = [
       female: 31,
       male: 69,
       topCountries: [
-        { name: "United States", pct: 68 },
-        { name: "Canada", pct: 11 },
-        { name: "United Kingdom", pct: 8 },
-        { name: "Germany", pct: 5 },
+        { name: "Kenya", pct: 68 },
+        { name: "Tanzania", pct: 11 },
+        { name: "Uganda", pct: 8 },
+        { name: "Ethiopia", pct: 5 },
       ],
       ages: [
         { range: "18–24", pct: 22 },
@@ -99,8 +99,8 @@ export const creators: Creator[] = [
     handle: "@hanaglass",
     image: "/images/creators/hana.jpg",
     niches: ["Beauty", "Lifestyle"],
-    location: "Seoul, KR",
-    city: "Seoul",
+    location: "Kilimani, Nairobi",
+    city: "Nairobi",
     bio: "Skin-first beauty and ritual. Trusted by K-beauty and prestige.",
     longBio:
       "Hana films the quiet choreography of a vanity: textures, light, the first swipe of a serum. Her community is literate, loyal, and allergic to hype. A mention from her reads as an editor’s note, not an ad.",
@@ -111,7 +111,7 @@ export const creators: Creator[] = [
     ],
     totalFollowers: 1265000,
     avgEngagement: 6.8,
-    rate: { post: 7800, story: 2100, reel: 11000 },
+    rate: { post: 94000, story: 25000, reel: 132000 },
     languages: ["Korean", "English", "Japanese"],
     verified: true,
     featured: true,
@@ -122,10 +122,10 @@ export const creators: Creator[] = [
       female: 86,
       male: 14,
       topCountries: [
-        { name: "South Korea", pct: 32 },
-        { name: "United States", pct: 24 },
-        { name: "Japan", pct: 16 },
-        { name: "United Kingdom", pct: 8 },
+        { name: "Kenya", pct: 32 },
+        { name: "Kenya", pct: 24 },
+        { name: "Uganda", pct: 16 },
+        { name: "Uganda", pct: 8 },
       ],
       ages: [
         { range: "18–24", pct: 34 },
@@ -145,8 +145,8 @@ export const creators: Creator[] = [
     handle: "@zarawells",
     image: "/images/creators/zara.jpg",
     niches: ["Lifestyle", "Fashion"],
-    location: "London, UK",
-    city: "London",
+    location: "Karen, Nairobi",
+    city: "Nairobi",
     bio: "Culture, interiors, and considered living. Mid-luxury sweet spot.",
     longBio:
       "Zara photographs the life her audience wants to inhabit — Sunday tables, city light, clothes that last. Brands use her when they need warmth without sloppiness.",
@@ -157,7 +157,7 @@ export const creators: Creator[] = [
     ],
     totalFollowers: 595000,
     avgEngagement: 4.4,
-    rate: { post: 4200, story: 1100, reel: 5800 },
+    rate: { post: 50000, story: 13000, reel: 70000 },
     languages: ["English", "French"],
     verified: true,
     featured: false,
@@ -168,9 +168,9 @@ export const creators: Creator[] = [
       female: 81,
       male: 19,
       topCountries: [
-        { name: "United Kingdom", pct: 48 },
-        { name: "United States", pct: 22 },
-        { name: "France", pct: 10 },
+        { name: "Uganda", pct: 48 },
+        { name: "Kenya", pct: 22 },
+        { name: "Rwanda", pct: 10 },
         { name: "Nigeria", pct: 7 },
       ],
       ages: [
@@ -191,8 +191,8 @@ export const creators: Creator[] = [
     handle: "@leoeats",
     image: "/images/creators/leo.jpg",
     niches: ["Food", "Lifestyle"],
-    location: "Brooklyn, US",
-    city: "New York",
+    location: "Lavington, Nairobi",
+    city: "Nairobi",
     bio: "Chef-led food film. Recipe drops that actually convert.",
     longBio:
       "Leo cooked in two Michelin rooms before he picked up a camera. His audience comes for technique and stays for the table. He is the rare food creator whose sponsored plates still look like dinner, not a set.",
@@ -203,7 +203,7 @@ export const creators: Creator[] = [
     ],
     totalFollowers: 1050000,
     avgEngagement: 7.8,
-    rate: { post: 5400, story: 1400, reel: 8200 },
+    rate: { post: 65000, story: 17000, reel: 98000 },
     languages: ["English", "Spanish"],
     verified: true,
     featured: true,
@@ -214,10 +214,10 @@ export const creators: Creator[] = [
       female: 58,
       male: 42,
       topCountries: [
-        { name: "United States", pct: 61 },
-        { name: "Mexico", pct: 9 },
-        { name: "United Kingdom", pct: 8 },
-        { name: "Canada", pct: 7 },
+        { name: "Kenya", pct: 61 },
+        { name: "Tanzania", pct: 9 },
+        { name: "Uganda", pct: 8 },
+        { name: "Tanzania", pct: 7 },
       ],
       ages: [
         { range: "18–24", pct: 20 },
@@ -237,8 +237,8 @@ export const creators: Creator[] = [
     handle: "@sofiagoes",
     image: "/images/creators/sofia.jpg",
     niches: ["Travel", "Lifestyle"],
-    location: "Mexico City, MX",
-    city: "Mexico City",
+    location: "Diani, Kwale",
+    city: "Diani",
     bio: "Slow travel and place. Hotel and destination campaigns.",
     longBio:
       "Sofia does not do itineraries. She does atmosphere — the hour the plaza empties, the linen on a terrace, a city learned by walking. Destination brands book her when they want desire, not a packing list.",
@@ -249,7 +249,7 @@ export const creators: Creator[] = [
     ],
     totalFollowers: 1088000,
     avgEngagement: 5.1,
-    rate: { post: 7200, story: 1900, reel: 10500 },
+    rate: { post: 86000, story: 23000, reel: 126000 },
     languages: ["Spanish", "English", "Portuguese"],
     verified: true,
     featured: true,
@@ -260,10 +260,10 @@ export const creators: Creator[] = [
       female: 72,
       male: 28,
       topCountries: [
-        { name: "United States", pct: 29 },
-        { name: "Mexico", pct: 27 },
-        { name: "Spain", pct: 12 },
-        { name: "Brazil", pct: 9 },
+        { name: "Kenya", pct: 29 },
+        { name: "Tanzania", pct: 27 },
+        { name: "Rwanda", pct: 12 },
+        { name: "South Africa", pct: 9 },
       ],
       ages: [
         { range: "18–24", pct: 24 },
@@ -273,7 +273,7 @@ export const creators: Creator[] = [
       ],
     },
     recentWork: [
-      { brand: "Wander Club", title: "Oaxaca residency", metric: "booked out" },
+      { brand: "Wander Club", title: "Diani residency", metric: "booked out" },
       { brand: "Lumen Atelier", title: "Resort linen story", metric: "2.7M reach" },
     ],
   },
@@ -283,8 +283,8 @@ export const creators: Creator[] = [
     handle: "@kaibreaks",
     image: "/images/creators/kai.jpg",
     niches: ["Tech", "Lifestyle"],
-    location: "Berlin, DE",
-    city: "Berlin",
+    location: "Kilimani, Nairobi",
+    city: "Nairobi",
     bio: "Product design and tools for builders. High-trust B2C tech.",
     longBio:
       "Kai reviews the objects people actually keep on their desks. His audience is designers, founders, and the quietly obsessive. A placement here reads as due diligence.",
@@ -295,7 +295,7 @@ export const creators: Creator[] = [
     ],
     totalFollowers: 735000,
     avgEngagement: 5.3,
-    rate: { post: 4800, story: 1200, reel: 7600 },
+    rate: { post: 58000, story: 14000, reel: 91000 },
     languages: ["German", "English", "Norwegian"],
     verified: true,
     featured: false,
@@ -306,10 +306,10 @@ export const creators: Creator[] = [
       female: 22,
       male: 78,
       topCountries: [
-        { name: "Germany", pct: 28 },
-        { name: "United States", pct: 26 },
-        { name: "United Kingdom", pct: 11 },
-        { name: "Netherlands", pct: 8 },
+        { name: "Ethiopia", pct: 28 },
+        { name: "Kenya", pct: 26 },
+        { name: "Uganda", pct: 11 },
+        { name: "Ghana", pct: 8 },
       ],
       ages: [
         { range: "18–24", pct: 16 },
@@ -329,8 +329,8 @@ export const creators: Creator[] = [
     handle: "@islarests",
     image: "/images/creators/isla.jpg",
     niches: ["Wellness", "Lifestyle"],
-    location: "Lisbon, PT",
-    city: "Lisbon",
+    location: "Naivasha, Nakuru",
+    city: "Naivasha",
     bio: "Rest, ritual, and nervous-system literacy. Soft power audience.",
     longBio:
       "Isla teaches people how to come down. Her work sits between yoga, writing, and still photography. Wellness brands that want depth — not a juice cleanse — find a home here.",
@@ -341,7 +341,7 @@ export const creators: Creator[] = [
     ],
     totalFollowers: 474000,
     avgEngagement: 5.9,
-    rate: { post: 3200, story: 900, reel: 4600 },
+    rate: { post: 38000, story: 11000, reel: 55000 },
     languages: ["English", "French", "Portuguese"],
     verified: false,
     featured: false,
@@ -352,10 +352,10 @@ export const creators: Creator[] = [
       female: 88,
       male: 12,
       topCountries: [
-        { name: "United States", pct: 31 },
-        { name: "United Kingdom", pct: 18 },
-        { name: "Portugal", pct: 12 },
-        { name: "France", pct: 11 },
+        { name: "Kenya", pct: 31 },
+        { name: "Uganda", pct: 18 },
+        { name: "Tanzania", pct: 12 },
+        { name: "Rwanda", pct: 11 },
       ],
       ages: [
         { range: "18–24", pct: 14 },
@@ -375,11 +375,11 @@ export const creators: Creator[] = [
     handle: "@nicopark",
     image: "/images/creators/nico.jpg",
     niches: ["Fashion", "Music"],
-    location: "Seoul, KR",
-    city: "Seoul",
+    location: "Westlands, Nairobi",
+    city: "Nairobi",
     bio: "Street luxury and night city. Youth culture with polish.",
     longBio:
-      "Nico moves between Seoul nights and Paris showrooms. His audience is 18–28, image-fluent, and fast. He is the creator you hire when a drop needs heat without looking desperate.",
+      "Nico moves between Westlands nights and Lamu weekends. His audience is 18–28, image-fluent, and fast. He is the creator you hire when a drop needs heat without looking desperate.",
     platforms: [
       { name: "Instagram", handle: "@nicopark", followers: 510000, engagement: 5.5 },
       { name: "TikTok", handle: "@nicopark", followers: 890000, engagement: 11.4 },
@@ -387,7 +387,7 @@ export const creators: Creator[] = [
     ],
     totalFollowers: 1476000,
     avgEngagement: 8.6,
-    rate: { post: 6900, story: 1800, reel: 9800 },
+    rate: { post: 83000, story: 22000, reel: 118000 },
     languages: ["Korean", "English"],
     verified: true,
     featured: true,
@@ -398,10 +398,10 @@ export const creators: Creator[] = [
       female: 49,
       male: 51,
       topCountries: [
-        { name: "South Korea", pct: 34 },
-        { name: "United States", pct: 21 },
-        { name: "Japan", pct: 14 },
-        { name: "Thailand", pct: 8 },
+        { name: "Kenya", pct: 34 },
+        { name: "Kenya", pct: 21 },
+        { name: "Uganda", pct: 14 },
+        { name: "Rwanda", pct: 8 },
       ],
       ages: [
         { range: "18–24", pct: 52 },
@@ -421,8 +421,8 @@ export const creators: Creator[] = [
     handle: "@rheaplays",
     image: "/images/creators/rhea.jpg",
     niches: ["Gaming", "Tech"],
-    location: "Toronto, CA",
-    city: "Toronto",
+    location: "Westlands, Nairobi",
+    city: "Nairobi",
     bio: "Competitive and cozy games. Hardware and headset launches.",
     longBio:
       "Rhea streams with the discipline of a coach and the warmth of a friend in voice chat. Hardware brands use her when they need a woman-led room that still cares about frames.",
@@ -433,7 +433,7 @@ export const creators: Creator[] = [
     ],
     totalFollowers: 1150000,
     avgEngagement: 6.6,
-    rate: { post: 5100, story: 1300, reel: 7400 },
+    rate: { post: 61000, story: 16000, reel: 89000 },
     languages: ["English"],
     verified: true,
     featured: false,
@@ -444,10 +444,10 @@ export const creators: Creator[] = [
       female: 41,
       male: 59,
       topCountries: [
-        { name: "United States", pct: 44 },
-        { name: "Canada", pct: 18 },
-        { name: "United Kingdom", pct: 12 },
-        { name: "Germany", pct: 7 },
+        { name: "Kenya", pct: 44 },
+        { name: "Tanzania", pct: 18 },
+        { name: "Uganda", pct: 12 },
+        { name: "Ethiopia", pct: 7 },
       ],
       ages: [
         { range: "18–24", pct: 46 },
@@ -467,11 +467,11 @@ export const creators: Creator[] = [
     handle: "@priyaworks",
     image: "/images/creators/priya.jpg",
     niches: ["Lifestyle", "Tech"],
-    location: "Mumbai, IN",
-    city: "Mumbai",
+    location: "Parklands, Nairobi",
+    city: "Nairobi",
     bio: "Work, ambition, and the modern desk. South Asia + diaspora.",
     longBio:
-      "Priya documents the architecture of a working life — calendars, clothes, the first hour. Her audience is young professionals across Mumbai, London, and New York who want polish without pretense.",
+      "Priya documents the architecture of a working life — calendars, clothes, the first hour. Her audience is young professionals across Nairobi, Kampala, and Lagos who want polish without pretense.",
     platforms: [
       { name: "Instagram", handle: "@priyaworks", followers: 380000, engagement: 5.1 },
       { name: "YouTube", handle: "Priya Shah", followers: 165000, engagement: 4.7 },
@@ -479,7 +479,7 @@ export const creators: Creator[] = [
     ],
     totalFollowers: 755000,
     avgEngagement: 5.6,
-    rate: { post: 3600, story: 950, reel: 5200 },
+    rate: { post: 43000, story: 11000, reel: 62000 },
     languages: ["English", "Hindi", "Gujarati"],
     verified: true,
     featured: false,
@@ -490,9 +490,9 @@ export const creators: Creator[] = [
       female: 67,
       male: 33,
       topCountries: [
-        { name: "India", pct: 48 },
-        { name: "United States", pct: 19 },
-        { name: "United Kingdom", pct: 14 },
+        { name: "Kenya", pct: 48 },
+        { name: "Kenya", pct: 19 },
+        { name: "Uganda", pct: 14 },
         { name: "UAE", pct: 6 },
       ],
       ages: [
@@ -513,8 +513,8 @@ export const creators: Creator[] = [
     handle: "@owendale",
     image: "/images/creators/owen.jpg",
     niches: ["Music", "Lifestyle"],
-    location: "Nashville, US",
-    city: "Nashville",
+    location: "Kisumu, KE",
+    city: "Kisumu",
     bio: "Songwriter culture and analog sound. Brand films with soul.",
     longBio:
       "Owen writes, records, and films in the same room. Lifestyle and audio brands hire him when they want a campaign that feels like a record, not a deck.",
@@ -525,7 +525,7 @@ export const creators: Creator[] = [
     ],
     totalFollowers: 481000,
     avgEngagement: 5.4,
-    rate: { post: 2800, story: 750, reel: 4100 },
+    rate: { post: 34000, story: 9000, reel: 49000 },
     languages: ["English"],
     verified: false,
     featured: false,
@@ -536,10 +536,10 @@ export const creators: Creator[] = [
       female: 46,
       male: 54,
       topCountries: [
-        { name: "United States", pct: 72 },
-        { name: "Canada", pct: 8 },
-        { name: "United Kingdom", pct: 7 },
-        { name: "Australia", pct: 5 },
+        { name: "Kenya", pct: 72 },
+        { name: "Tanzania", pct: 8 },
+        { name: "Uganda", pct: 7 },
+        { name: "South Africa", pct: 5 },
       ],
       ages: [
         { range: "18–24", pct: 27 },
@@ -559,8 +559,8 @@ export const creators: Creator[] = [
     handle: "@elenahome",
     image: "/images/creators/elena.jpg",
     niches: ["Parenting", "Lifestyle"],
-    location: "Portland, US",
-    city: "Portland",
+    location: "Karen, Nairobi",
+    city: "Nairobi",
     bio: "Modern family, design-led home. High household spend.",
     longBio:
       "Elena makes family life look considered without making it look easy. CPG, home, and kids brands come for an audience that actually buys the cart.",
@@ -571,7 +571,7 @@ export const creators: Creator[] = [
     ],
     totalFollowers: 553000,
     avgEngagement: 5.6,
-    rate: { post: 3400, story: 880, reel: 4700 },
+    rate: { post: 41000, story: 11000, reel: 56000 },
     languages: ["English"],
     verified: true,
     featured: false,
@@ -582,10 +582,10 @@ export const creators: Creator[] = [
       female: 91,
       male: 9,
       topCountries: [
-        { name: "United States", pct: 74 },
-        { name: "Canada", pct: 9 },
-        { name: "United Kingdom", pct: 7 },
-        { name: "Australia", pct: 4 },
+        { name: "Kenya", pct: 74 },
+        { name: "Tanzania", pct: 9 },
+        { name: "Uganda", pct: 7 },
+        { name: "South Africa", pct: 4 },
       ],
       ages: [
         { range: "18–24", pct: 8 },
@@ -605,11 +605,11 @@ export const creators: Creator[] = [
     handle: "@marcusade",
     image: "/images/creators/marcus.jpg",
     niches: ["Fashion", "Lifestyle"],
-    location: "Lagos, NG",
-    city: "Lagos",
+    location: "South B, Nairobi",
+    city: "Nairobi",
     bio: "Menswear and African luxury. Global Black audience.",
     longBio:
-      "Marcus photographs the new Lagos — tailoring, night, the cut of a jacket at dusk. Houses that want the continent as more than a mood board work with him.",
+      "Marcus photographs the new Nairobi — tailoring, night, the cut of a jacket at dusk. Houses that want the continent as more than a mood board work with him.",
     platforms: [
       { name: "Instagram", handle: "@marcusade", followers: 470000, engagement: 5.3 },
       { name: "TikTok", handle: "@marcusade", followers: 160000, engagement: 7.6 },
@@ -617,7 +617,7 @@ export const creators: Creator[] = [
     ],
     totalFollowers: 684000,
     avgEngagement: 5.6,
-    rate: { post: 3900, story: 1000, reel: 5600 },
+    rate: { post: 47000, story: 12000, reel: 67000 },
     languages: ["English", "Yoruba"],
     verified: true,
     featured: false,
@@ -629,8 +629,8 @@ export const creators: Creator[] = [
       male: 62,
       topCountries: [
         { name: "Nigeria", pct: 36 },
-        { name: "United States", pct: 22 },
-        { name: "United Kingdom", pct: 18 },
+        { name: "Kenya", pct: 22 },
+        { name: "Uganda", pct: 18 },
         { name: "Ghana", pct: 7 },
       ],
       ages: [
@@ -651,8 +651,8 @@ export const creators: Creator[] = [
     handle: "@amaraskin",
     image: "/images/creators/amara.jpg",
     niches: ["Beauty", "Wellness"],
-    location: "Paris, FR",
-    city: "Paris",
+    location: "Riverside, Nairobi",
+    city: "Nairobi",
     bio: "Clinical-adjacent beauty. Prestige skin and fragrance.",
     longBio:
       "Amara trained in formulation before she trained a camera. Her reviews are precise, almost pharmaceutical, and her audience treats her like a derm they actually like.",
@@ -663,7 +663,7 @@ export const creators: Creator[] = [
     ],
     totalFollowers: 845000,
     avgEngagement: 6.4,
-    rate: { post: 5800, story: 1500, reel: 8400 },
+    rate: { post: 70000, story: 18000, reel: 101000 },
     languages: ["French", "English", "Mandarin"],
     verified: true,
     featured: true,
@@ -674,10 +674,10 @@ export const creators: Creator[] = [
       female: 84,
       male: 16,
       topCountries: [
-        { name: "France", pct: 29 },
-        { name: "United States", pct: 23 },
-        { name: "United Kingdom", pct: 12 },
-        { name: "China", pct: 9 },
+        { name: "Rwanda", pct: 29 },
+        { name: "Kenya", pct: 23 },
+        { name: "Uganda", pct: 12 },
+        { name: "Tanzania", pct: 9 },
       ],
       ages: [
         { range: "18–24", pct: 21 },
@@ -697,8 +697,8 @@ export const creators: Creator[] = [
     handle: "@yasirframes",
     image: "/images/creators/yasir.jpg",
     niches: ["Travel", "Lifestyle"],
-    location: "Marrakech, MA",
-    city: "Marrakech",
+    location: "Shela, Lamu",
+    city: "Lamu",
     bio: "Documentary travel stills. Culture-first destination work.",
     longBio:
       "Yasir shoots like a correspondent who also happens to be a poet. Tourism boards and heritage hotels hire him when they want a place to look like itself.",
@@ -709,7 +709,7 @@ export const creators: Creator[] = [
     ],
     totalFollowers: 587000,
     avgEngagement: 4.6,
-    rate: { post: 3500, story: 900, reel: 5100 },
+    rate: { post: 42000, story: 11000, reel: 61000 },
     languages: ["Arabic", "French", "English"],
     verified: true,
     featured: false,
@@ -720,10 +720,10 @@ export const creators: Creator[] = [
       female: 44,
       male: 56,
       topCountries: [
-        { name: "United States", pct: 24 },
-        { name: "France", pct: 18 },
+        { name: "Kenya", pct: 24 },
+        { name: "Rwanda", pct: 18 },
         { name: "UAE", pct: 16 },
-        { name: "Morocco", pct: 14 },
+        { name: "Tanzania", pct: 14 },
       ],
       ages: [
         { range: "18–24", pct: 19 },
@@ -760,11 +760,16 @@ export function formatFollowers(n: number): string {
 }
 
 export function formatMoney(n: number): string {
-  return new Intl.NumberFormat("en-US", {
-    style: "currency",
-    currency: "USD",
-    maximumFractionDigits: 0,
-  }).format(n);
+  return `KSh ${new Intl.NumberFormat("en-KE", { maximumFractionDigits: 0 }).format(n)}`;
+}
+
+export function formatMoneyCompact(n: number): string {
+  if (n >= 1_000_000) {
+    const m = n / 1_000_000;
+    return `KSh ${m >= 10 || m % 1 === 0 ? m.toFixed(0) : m.toFixed(1)}M`;
+  }
+  if (n >= 1_000) return `KSh ${Math.round(n / 1_000)}K`;
+  return `KSh ${n}`;
 }
 
 export function getCreator(id: string) {

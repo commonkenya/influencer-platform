@@ -9,15 +9,15 @@ const kpis = [
   { l: "Active briefs", n: "6", s: "+2 this month" },
   { l: "Talent shortlisted", n: "", s: "across open casts" },
   { l: "In conversation", n: "5", s: "3 awaiting reply" },
-  { l: "Booked YTD", n: "$428k", s: "18 campaigns" },
+  { l: "Booked YTD", n: "KSh 892K", s: "18 campaigns" },
 ];
 
 const pipeline = [
-  { brand: "Lumen Atelier", title: "Autumn Atelier", stage: "Treatment", spend: 24000, pct: 70 },
-  { brand: "Solace Skin", title: "Dew Protocol", stage: "Casting", spend: 18600, pct: 45 },
-  { brand: "Volt Athletics", title: "Forge Collection", stage: "In production", spend: 15200, pct: 82 },
-  { brand: "Wander Club", title: "House Residencies", stage: "Contract", spend: 31000, pct: 30 },
-  { brand: "Pulse Labs", title: "The Desk System", stage: "Brief live", spend: 9800, pct: 18 },
+  { brand: "Lumen Atelier", title: "Autumn Atelier", stage: "Treatment", spend: 168000, pct: 70 },
+  { brand: "Solace Skin", title: "Dew Protocol", stage: "Casting", spend: 156000, pct: 45 },
+  { brand: "Volt Athletics", title: "Forge Collection", stage: "In production", spend: 124000, pct: 82 },
+  { brand: "Wander Club", title: "House Residencies", stage: "Contract", spend: 180000, pct: 30 },
+  { brand: "Pulse Labs", title: "The Desk System", stage: "Brief live", spend: 84000, pct: 18 },
 ];
 
 const weekly = [42, 55, 48, 71, 63, 88, 76, 94, 81, 110, 98, 124];
@@ -150,7 +150,7 @@ export default function Studio() {
                         {camp.title}
                       </Link>
                       <p className="mt-1 text-[12px] text-stone">
-                        {camp.brand} · {a.date} · ${a.rate || "—"}
+                        {camp.brand} · {a.date} · {a.rate ? formatMoney(Number(a.rate)) : "—"}
                       </p>
                       <p className="mt-2 line-clamp-2 text-sm text-stone">{a.pitch}</p>
                     </div>

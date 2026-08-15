@@ -11,9 +11,9 @@ export const campaigns: Campaign[] = [
     brief:
       "We are casting six creators to interpret the Autumn Atelier collection — wool, silk, and evening tailoring — through stills and a 20–30s film. We want editorial restraint, not haul energy. Think golden hour interiors, city dusk, and clothes that move.",
     niches: ["Fashion", "Lifestyle"],
-    budget: "$18k – $45k",
-    budgetMin: 18000,
-    budgetMax: 45000,
+    budget: "KSh 65K – 158K",
+    budgetMin: 65000,
+    budgetMax: 158000,
     deliverables: [
       "1 × 20–30s hero reel",
       "4 feed stills",
@@ -26,9 +26,9 @@ export const campaigns: Campaign[] = [
     applicants: 42,
     spots: 6,
     platforms: ["Instagram", "TikTok"],
-    location: "Los Angeles · Paris · Seoul",
+    location: "Nairobi · Mombasa · Kisumu",
     brandAbout:
-      "Lumen Atelier is a house of considered clothes — cut in small runs, shown like cinema. Founded in 2014, now in twelve cities.",
+      "Lumen Atelier is a Nairobi house of considered clothes — cut in small runs, shown like cinema. Founded in 2019 from a studio in Westlands.",
   },
   {
     id: "solace-dew",
@@ -40,9 +40,9 @@ export const campaigns: Campaign[] = [
     brief:
       "Launch partners for Dew Protocol, a ceramide-rich cream. We want honest texture films, 7-day diaries, and creators whose audience already speaks the language of skin barriers. No filters that melt the product.",
     niches: ["Beauty", "Wellness"],
-    budget: "$12k – $32k",
-    budgetMin: 12000,
-    budgetMax: 32000,
+    budget: "KSh 42K – 112K",
+    budgetMin: 42000,
+    budgetMax: 112000,
     deliverables: [
       "7-day diary (stories + 1 reel)",
       "1 texture close-up film",
@@ -55,9 +55,9 @@ export const campaigns: Campaign[] = [
     applicants: 67,
     spots: 8,
     platforms: ["Instagram", "TikTok", "YouTube"],
-    location: "Global, English or Korean",
+    location: "Nairobi, English or Swahili",
     brandAbout:
-      "Solace formulates slow, sensorial skin care in small batches in Copenhagen. Cult following, no celebrity faces.",
+      "Solace formulates slow, sensorial skin care in small batches in Karen. Cult following, no celebrity faces.",
   },
   {
     id: "volt-forge",
@@ -69,9 +69,9 @@ export const campaigns: Campaign[] = [
     brief:
       "We need performance creators — not models in gyms — to wear-test the Forge collection across four weeks. Strength, running, and hybrid athletes. Footage from real sessions. We will pay for the work and the honesty.",
     niches: ["Fitness", "Lifestyle"],
-    budget: "$10k – $28k",
-    budgetMin: 10000,
-    budgetMax: 28000,
+    budget: "KSh 35K – 98K",
+    budgetMin: 35000,
+    budgetMax: 98000,
     deliverables: [
       "4-week wear test",
       "2 training reels",
@@ -84,9 +84,9 @@ export const campaigns: Campaign[] = [
     applicants: 38,
     spots: 5,
     platforms: ["Instagram", "YouTube", "TikTok"],
-    location: "US, UK, AU",
+    location: "Nairobi · Eldoret · Kisumu",
     brandAbout:
-      "Volt builds athletic wear for serious amateurs. No neon. No slogans. Just kit that survives a program.",
+      "Volt builds athletic wear in Nairobi for serious amateurs. No neon. No slogans. Just kit that survives a program.",
   },
   {
     id: "wander-residencies",
@@ -96,11 +96,11 @@ export const campaigns: Campaign[] = [
     title: "House Residencies",
     tagline: "Seven nights. One house. No itinerary.",
     brief:
-      "We are placing travel creators in three private houses — Oaxaca, Lisbon, Marrakech — for a week each. The brief is atmosphere: light, table, neighborhood. Not a packing cube review.",
+      "We are placing travel creators in three private houses — Diani, Lamu, Naivasha — for a week each. The brief is atmosphere: light, table, neighborhood. Not a packing cube review.",
     niches: ["Travel", "Lifestyle", "Food"],
-    budget: "$15k – $40k + stay",
-    budgetMin: 15000,
-    budgetMax: 40000,
+    budget: "KSh 52K – 140K + stay",
+    budgetMin: 52000,
+    budgetMax: 140000,
     deliverables: [
       "7-night residency",
       "1 cinematic reel",
@@ -113,9 +113,9 @@ export const campaigns: Campaign[] = [
     applicants: 91,
     spots: 3,
     platforms: ["Instagram", "YouTube"],
-    location: "Oaxaca · Lisbon · Marrakech",
+    location: "Diani · Lamu · Naivasha",
     brandAbout:
-      "Wander Club is a members’ travel house. Twelve residences, one standard: the place should feel like it was always yours.",
+      "Wander Club is a members’ travel house along the Kenyan coast and Rift. Twelve residences, one standard: the place should feel like it was always yours.",
   },
   {
     id: "harvest-fire",
@@ -127,9 +127,9 @@ export const campaigns: Campaign[] = [
     brief:
       "A six-recipe series for home cooks who are tired of beige bowls. We want chef-creators and table stylists. Each film should end at a real table, with people.",
     niches: ["Food", "Lifestyle", "Parenting"],
-    budget: "$8k – $22k",
-    budgetMin: 8000,
-    budgetMax: 22000,
+    budget: "KSh 28K – 77K",
+    budgetMin: 28000,
+    budgetMax: 77000,
     deliverables: [
       "6 recipe reels",
       "Shopping list carousels",
@@ -142,9 +142,9 @@ export const campaigns: Campaign[] = [
     applicants: 54,
     spots: 4,
     platforms: ["Instagram", "TikTok", "YouTube"],
-    location: "US & UK",
+    location: "Nairobi & Mombasa",
     brandAbout:
-      "Harvest Table makes pantry goods and cookware for people who cook on a Tuesday. Based in Hudson Valley.",
+      "Harvest Table makes pantry goods and cookware for people who cook on a Tuesday. Based in Limuru.",
   },
   {
     id: "pulse-desk",
@@ -156,9 +156,9 @@ export const campaigns: Campaign[] = [
     brief:
       "A product-led campaign for our new desk system — lamp, dock, analog timer. We want tech and work-culture creators who already care about their rooms. Unboxings that linger.",
     niches: ["Tech", "Lifestyle"],
-    budget: "$9k – $24k",
-    budgetMin: 9000,
-    budgetMax: 24000,
+    budget: "KSh 32K – 84K",
+    budgetMin: 32000,
+    budgetMax: 84000,
     deliverables: [
       "1 long-form review",
       "1 desk tour reel",
@@ -171,9 +171,9 @@ export const campaigns: Campaign[] = [
     applicants: 29,
     spots: 6,
     platforms: ["YouTube", "Instagram"],
-    location: "Global, English",
+    location: "Nairobi, English or Swahili",
     brandAbout:
-      "Pulse Labs designs hardware for focus. Small team in Berlin and Tokyo. Every object is meant to last a decade.",
+      "Pulse Labs designs hardware for focus. Small team in Nairobi and Kigali. Every object is meant to last a decade.",
   },
   {
     id: "noir-night",
@@ -185,9 +185,9 @@ export const campaigns: Campaign[] = [
     brief:
       "We are launching Night Ritual, a skin-scent of smoke, fig, and cedar. Looking for fashion and beauty creators who can film desire without a bottle-spin. Dark rooms, skin, fabric.",
     niches: ["Beauty", "Fashion"],
-    budget: "$20k – $55k",
-    budgetMin: 20000,
-    budgetMax: 55000,
+    budget: "KSh 70K – 195K",
+    budgetMin: 70000,
+    budgetMax: 195000,
     deliverables: [
       "1 brand film 30–45s",
       "3 stills",
@@ -200,9 +200,9 @@ export const campaigns: Campaign[] = [
     applicants: 18,
     spots: 4,
     platforms: ["Instagram", "TikTok"],
-    location: "Paris · New York · Seoul",
+    location: "Nairobi · Mombasa · Kigali",
     brandAbout:
-      "Noir is an independent perfume house. Four scents a year. No celebrities, no flankers.",
+      "Noir is an independent perfume house in Nairobi. Four scents a year. No celebrities, no flankers.",
   },
   {
     id: "terra-house",
@@ -214,9 +214,9 @@ export const campaigns: Campaign[] = [
     brief:
       "A home and family campaign for our new linen line. We want interiors, parenting, and lifestyle creators whose rooms already look lived-in. Natural light only.",
     niches: ["Lifestyle", "Parenting", "Fashion"],
-    budget: "$7k – $18k",
-    budgetMin: 7000,
-    budgetMax: 18000,
+    budget: "KSh 25K – 63K",
+    budgetMin: 25000,
+    budgetMax: 63000,
     deliverables: [
       "Home tour reel",
       "6 stills of the line in situ",
@@ -229,9 +229,9 @@ export const campaigns: Campaign[] = [
     applicants: 73,
     spots: 5,
     platforms: ["Instagram", "Pinterest"],
-    location: "US, UK, AU",
+    location: "Nairobi, Mombasa, Kisumu",
     brandAbout:
-      "Terra weaves linen in Portugal and sews in Porto. Clothes and home textiles with the same hand.",
+      "Terra weaves linen with Kenyan cotton and sews in Nairobi. Clothes and home textiles with the same hand.",
   },
   {
     id: "lumen-nightcut",
@@ -243,9 +243,9 @@ export const campaigns: Campaign[] = [
     brief:
       "A live campaign for the Night Cut — black wool, a single jewel button, the hour after dinner. Four creators already shooting. We are not adding seats.",
     niches: ["Fashion", "Beauty"],
-    budget: "$16k – $38k",
-    budgetMin: 16000,
-    budgetMax: 38000,
+    budget: "KSh 56K – 133K",
+    budgetMin: 56000,
+    budgetMax: 133000,
     deliverables: [
       "1 brand film 30s",
       "3 stills",
@@ -258,9 +258,9 @@ export const campaigns: Campaign[] = [
     applicants: 18,
     spots: 4,
     platforms: ["Instagram", "TikTok"],
-    location: "Paris · New York · Seoul",
+    location: "Nairobi · Mombasa · Kisumu",
     brandAbout:
-      "Lumen Atelier is a house of considered clothes — cut in small runs, shown like cinema. Founded in 2014, now in twelve cities.",
+      "Lumen Atelier is a Nairobi house of considered clothes — cut in small runs, shown like cinema. Founded in 2019 from a studio in Westlands.",
   },
   {
     id: "lumen-workwear",
@@ -272,9 +272,9 @@ export const campaigns: Campaign[] = [
     brief:
       "A completed capsule with working-life creators. The archive is open for reporting; no new applications.",
     niches: ["Fashion", "Lifestyle", "Tech"],
-    budget: "$8k – $20k",
-    budgetMin: 8000,
-    budgetMax: 20000,
+    budget: "KSh 28K – 70K",
+    budgetMin: 28000,
+    budgetMax: 70000,
     deliverables: [
       "Workday reel",
       "4 stills",
@@ -286,9 +286,9 @@ export const campaigns: Campaign[] = [
     applicants: 31,
     spots: 5,
     platforms: ["Instagram", "YouTube"],
-    location: "Global, English",
+    location: "Nairobi, English or Swahili",
     brandAbout:
-      "Lumen Atelier is a house of considered clothes — cut in small runs, shown like cinema. Founded in 2014, now in twelve cities.",
+      "Lumen Atelier is a Nairobi house of considered clothes — cut in small runs, shown like cinema. Founded in 2019 from a studio in Westlands.",
   },
 ];
 

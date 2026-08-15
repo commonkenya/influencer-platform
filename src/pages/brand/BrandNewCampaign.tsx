@@ -14,12 +14,12 @@ export default function BrandNewCampaign() {
   const [brief, setBrief] = useState("");
   const [selected, setSelected] = useState<Niche[]>(["Fashion"]);
   const [plats, setPlats] = useState<PlatformName[]>(["Instagram"]);
-  const [budgetMin, setBudgetMin] = useState(12000);
-  const [budgetMax, setBudgetMax] = useState(28000);
+  const [budgetMin, setBudgetMin] = useState(42000);
+  const [budgetMax, setBudgetMax] = useState(98000);
   const [spots, setSpots] = useState(4);
   const [deadline, setDeadline] = useState("2026-05-01");
   const [startDate, setStartDate] = useState("2026-05-18");
-  const [location, setLocation] = useState("Los Angeles · Paris");
+  const [location, setLocation] = useState("Nairobi · Mombasa");
   const [deliverables, setDeliverables] = useState(
     "1 × 20–30s hero reel\n4 feed stills\n6 stories with product tags"
   );
@@ -125,23 +125,23 @@ export default function BrandNewCampaign() {
           </div>
         </Field>
         <div className="grid gap-4 sm:grid-cols-2">
-          <Field label={`Budget min · $${budgetMin.toLocaleString()}`}>
+          <Field label={`Budget min · KSh ${budgetMin.toLocaleString("en-KE")}`}>
             <input
               type="range"
-              min={2000}
-              max={40000}
-              step={500}
+              min={5000}
+              max={200000}
+              step={1000}
               value={budgetMin}
               onChange={(e) => setBudgetMin(Number(e.target.value))}
               className="w-full"
             />
           </Field>
-          <Field label={`Budget max · $${budgetMax.toLocaleString()}`}>
+          <Field label={`Budget max · KSh ${budgetMax.toLocaleString("en-KE")}`}>
             <input
               type="range"
-              min={4000}
-              max={80000}
-              step={500}
+              min={8000}
+              max={200000}
+              step={1000}
               value={budgetMax}
               onChange={(e) => setBudgetMax(Math.max(budgetMin, Number(e.target.value)))}
               className="w-full"

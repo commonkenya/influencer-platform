@@ -152,7 +152,7 @@ export default function CampaignDetail() {
                   <input
                     value={rate}
                     onChange={(e) => setRate(e.target.value)}
-                    placeholder="Your rate for the full brief (USD)"
+                    placeholder="Your rate for the full brief (KSh)"
                     className="w-full border border-white/10 bg-ink px-3 py-3 text-sm text-cream outline-none placeholder:text-stone/50 focus:border-gold/40"
                   />
                   <button

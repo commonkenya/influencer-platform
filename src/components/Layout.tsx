@@ -176,9 +176,9 @@ export default function Layout() {
           <div>
             <p className="text-[11px] tracking-[0.2em] uppercase text-gold">Atelier</p>
             <p className="mt-4 text-sm text-stone">
-              18 Mercer Street
+              ABC Place, Waiyaki Way
               <br />
-              New York, NY 10013
+              Westlands, Nairobi
             </p>
             <p className="mt-3 text-sm text-stone">desk@vela.studio</p>
           </div>
@@ -186,7 +186,7 @@ export default function Layout() {
         <div className="border-t border-white/5">
           <div className="mx-auto flex max-w-[1400px] flex-col gap-2 px-5 py-5 text-[11px] tracking-wider text-stone/70 md:flex-row md:justify-between md:px-8">
             <span>© 2026 Vela Atelier. All rights reserved.</span>
-            <span>New York · Paris · Seoul</span>
+            <span>Nairobi · Mombasa · Kisumu</span>
           </div>
         </div>
       </footer>

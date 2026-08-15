@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Heart, MapPin, Star } from "lucide-react";
 import type { Creator } from "../data/types";
-import { formatFollowers } from "../data/creators";
+import { formatFollowers, formatMoneyCompact } from "../data/creators";
 import { useStore } from "../lib/store";
 
 export default function CreatorCard({ creator }: { creator: Creator }) {
@@ -57,7 +57,7 @@ export default function CreatorCard({ creator }: { creator: Creator }) {
             <p className="text-[9px] tracking-[0.14em] uppercase text-stone">ER</p>
           </div>
           <div>
-            <p className="font-display text-lg text-cream">${(creator.rate.reel / 1000).toFixed(1)}k</p>
+            <p className="font-display text-lg text-cream">{formatMoneyCompact(creator.rate.reel)}</p>
             <p className="text-[9px] tracking-[0.14em] uppercase text-stone">Reel</p>
           </div>
         </div>

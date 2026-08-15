@@ -121,7 +121,7 @@ export default function CreatorOpportunities() {
                     <input
                       value={rate}
                       onChange={(e) => setRate(e.target.value)}
-                      placeholder="Your rate (USD)"
+                      placeholder="Your rate (KSh)"
                       className="field"
                     />
                     <div className="flex gap-2">

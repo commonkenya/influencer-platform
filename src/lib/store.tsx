@@ -46,8 +46,14 @@ interface Store {
 const StoreContext = createContext<Store | null>(null);
 
 function formatBudget(min: number, max: number) {
-  const f = (n: number) =>
-    n >= 1000 ? `$${Math.round(n / 1000)}k` : `$${n}`;
+  const f = (n: number) => {
+    if (n >= 1_000_000) {
+      const m = n / 1_000_000;
+      return `KSh ${m >= 10 || m % 1 === 0 ? m.toFixed(0) : m.toFixed(1)}M`;
+    }
+    if (n >= 1_000) return `KSh ${Math.round(n / 1_000)}K`;
+    return `KSh ${n}`;
+  };
   return `${f(min)} – ${f(max)}`;
 }
 
@@ -187,7 +193,7 @@ export function StoreProvider({ children }: { children: ReactNode }) {
       platforms: input.platforms,
       location: input.location,
       brandAbout:
-        "Lumen Atelier is a house of considered clothes — cut in small runs, shown like cinema. Founded in 2014, now in twelve cities.",
+        "Lumen Atelier is a Nairobi house of considered clothes — cut in small runs, shown like cinema. Founded in 2019 from a studio in Westlands.",
     };
     setExtraCampaigns((prev) => [campaign, ...prev]);
     return campaign;

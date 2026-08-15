@@ -62,7 +62,7 @@ export default function BrandOverview() {
         <div className="border border-white/8 bg-ink-2 p-6">
           <div className="flex items-center justify-between">
             <p className="text-[11px] tracking-[0.2em] uppercase text-gold">Spend, last 12 months</p>
-            <span className="text-[12px] text-stone">$352k booked</span>
+            <span className="text-[12px] text-stone">KSh 892K booked</span>
           </div>
           <div className="mt-8 flex h-40 items-end gap-2">
             {brandMonthlySpend.map((d) => (

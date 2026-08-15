@@ -18,9 +18,9 @@ const houses = [
 
 const stats = [
   { n: "2,400+", l: "Vetted creators" },
-  { n: "38", l: "Markets" },
+  { n: "47", l: "Counties" },
   { n: "4.8×", l: "Median ROAS" },
-  { n: "$180M", l: "Booked last year" },
+  { n: "KSh 186K", l: "Median booking" },
 ];
 
 export default function Home() {
@@ -46,7 +46,7 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             className="text-[11px] tracking-[0.32em] uppercase text-gold"
           >
-            Influencer atelier · est. 2019
+            Nairobi influencer atelier · est. 2019
           </motion.p>
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
@@ -64,9 +64,9 @@ export default function Home() {
             transition={{ delay: 0.2 }}
             className="mt-6 max-w-xl text-[16px] leading-relaxed text-cream-2/80 md:text-lg"
           >
-            Vela is a private marketplace where houses brief campaigns and a
-            curated roster answers. Fewer creators. Better rooms. Work that
-            still looks like work.
+            Vela is Kenya’s private marketplace where houses brief campaigns and a
+            curated roster answers — all priced in Kenyan shillings. Fewer
+            creators. Better rooms. Work that still looks like work.
           </motion.p>
           <motion.div
             initial={{ opacity: 0 }}

@@ -29,7 +29,7 @@ export default function BrandAnalytics() {
       </div>
 
       <div className="mt-8 border border-white/8 bg-ink-2 p-6">
-        <p className="text-[11px] tracking-[0.2em] uppercase text-gold">Monthly spend ($k)</p>
+        <p className="text-[11px] tracking-[0.2em] uppercase text-gold">Monthly spend (KSh K)</p>
         <div className="mt-8 flex h-44 items-end gap-2">
           {brandMonthlySpend.map((d) => (
             <div key={d.m} className="flex flex-1 flex-col items-center gap-2">
